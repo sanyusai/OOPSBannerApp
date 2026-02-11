@@ -1,16 +1,27 @@
 /**
- * OOPSBannerApp UC1 - OOPS Banner Display Application
+ * OOPSBannerApp UC2 - Banner Display Application
  *
- * This class demonstrates a simple Java application that displays
- * the Object Oriented Programming System (OOPS) acronym to the console.
+ * Displays the word "OOPS" in a 7-line banner format
+ * using asterisks (*) and spaces.
  *
  * @author Developer
- * @version 1.0
+ * @version 2.0
  */
+
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
-        System.out.println("OOPS");
+
+        // Each letter width = 9 characters
+        // 7-line banner
+
+        System.out.println("  *****   " + "  *****   " + " ******   " + "  *****   ");
+        System.out.println(" **   **  " + " **   **  " + " **   **  " + " **   **  ");
+        System.out.println(" **   **  " + " **   **  " + " **   **  " + " **        ");
+        System.out.println(" **   **  " + " **   **  " + " ******   " + "  *****   ");
+        System.out.println(" **   **  " + " **   **  " + " **        " + "       ** ");
+        System.out.println(" **   **  " + " **   **  " + " **        " + " **   **  ");
+        System.out.println("  *****   " + "  *****   " + " **        " + "  *****   ");
     }
 }
 
